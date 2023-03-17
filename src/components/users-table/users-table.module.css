@@ -1,0 +1,17 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+  background: #ccc;
+  padding: 10px 10px;
+}
+
+.header span {
+  cursor: pointer;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr;
+  padding: 4px 10px;
+  border-top: 1px solid #ccc;
+}
